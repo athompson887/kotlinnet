@@ -33,6 +33,7 @@ class Neuron() {
         return inputSynapses.sumOf {(it.weight * it.inputNeuron.value)+bias  }
     }
 
+
     fun calculateError(target:Double):Double
     {
         return target - value
