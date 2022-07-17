@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.network.NetworkTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-07-16T16:07:34" hostname="Andrews-MacBook-Pro.local" time="0.015">
+  <properties/>
+  <testcase name="testSigmoidOutput[native]" classname="org.network.NetworkTest" time="0.009"/>
+  <testcase name="testSigmoidOutputLessThanMinus45[native]" classname="org.network.NetworkTest" time="0.001"/>
+  <testcase name="testSigmoidOutputMoreThan45[native]" classname="org.network.NetworkTest" time="0.003"/>
+  <testcase name="testSigmoidDerivative[native]" classname="org.network.NetworkTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
