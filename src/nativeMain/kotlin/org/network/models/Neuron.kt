@@ -1,4 +1,4 @@
-package org.network
+package org.network.models
 
 class Neuron() {
     var iD:String = "TODO"

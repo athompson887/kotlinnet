@@ -1,4 +1,4 @@
-package org.network
+package org.network.models
 
 class Synapse(var inputNeuron: Neuron, var outputNeuron: Neuron)
 {

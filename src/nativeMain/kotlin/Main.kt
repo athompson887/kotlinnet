@@ -1,5 +1,5 @@
-import org.network.NeuralNetwork
-
+import org.network.NNManager
+//import
 fun main(args: Array<String>) {
     println("Hello World!")
 
@@ -7,7 +7,32 @@ fun main(args: Array<String>) {
     // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
     println("Program arguments: ${args.joinToString()}")
 
-    val myNetwork = NeuralNetwork(numInputs = 3, numOutputs = 4, numMiddle = 5, numLayers = 2)
-    myNetwork.printDetails()
+    val networkManager = NNManager()
+    networkManager.setupNetwork()
+
+    GlobalScope.launch(sayHello)
+
+    suspend fun sayHello(){
+
+    }
+ /*   NNManager mgr = new NNManager();
+    mgr.SetupNetwork()
+        .GetTrainingDataFromUser()
+        .TrainNetworkToMinimum()
+        .TestNetwork();
+
+    Console.WriteLine("Press any key to train network for maximum");
+    Console.ReadKey();
+
+    mgr.SetupNetwork()
+        .GetTrainingDataFromUser()
+        .TrainNetworkToMaximum()
+        .TestNetwork();
+
+    Console.WriteLine("Press any key to exit");
+    Console.ReadKey();*/
+
+
+
 }
 
